@@ -74,6 +74,7 @@ const createLabel = (num, textOption) => {
   const input = document.createElement('input');
   input.setAttribute('type', 'radio');
   input.name = 'question' + numQuestion;
+  input.className = 'inputExample';
   input.setAttribute('onclick', 'selection(' + numQuestion + ',' + num + ')');
 
   const span = document.createElement('span');
