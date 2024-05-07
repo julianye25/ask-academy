@@ -56,6 +56,15 @@ button {
 
 .primera h2 {
   padding-top: 150px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.primera p {
+  width: 600px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .example {
