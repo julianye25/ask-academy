@@ -17,8 +17,14 @@ header {
   background-color: rgba(55, 55, 53, 255);
 }
 
+
+
 header a {
   text-decoration: none;
+  color: black;
+}
+
+header .logo {
   color: white;
 }
 
@@ -312,6 +318,63 @@ footer a {
   text-decoration: none;
   color: white;
 }
+
+.left-login {
+  display: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-login {
+  margin-top: 100px
+}
+
+.right-login {
+  display: flex;
+  flex-direction: column;
+  margin-left: 75px;
+  align-items: center;
+
+}
+.right-login h2 {
+  color: white;
+  margin-right: 55px;
+  margin-top: 5px;
+}
+
+.right-login input {
+  padding: 5px;
+  margin-bottom: 7px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.right-login button {
+  margin-top: 7px;
+  margin-left: 40px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+}
+
+.right-login p {
+  margin-top: 6px;
+  color: white;
+}
+
+.right-login .register {
+  color: #45a049;
+}
+
+
+
+
+
 
 @media only screen and (min-width: 768px) {
   header {
