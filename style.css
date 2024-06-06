@@ -21,7 +21,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 header .logo {
@@ -360,6 +360,8 @@ footer a {
   padding: 8px;
   border: none;
   border-radius: 10px;
+  background-color: #45a049;
+  color: white;
 }
 
 .right-login p {
