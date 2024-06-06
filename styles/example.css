@@ -1,0 +1,85 @@
+.example {
+    width: 150px;
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #45a049;
+  }
+  
+  .example .link-example {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .container-question {
+    border: 2px solid black;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(232, 81, 116, 255);
+  }
+  
+  .container-question h2 {
+    font-size: 1em;
+  }
+  
+  label {
+    display: flex;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .inputExample {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  .correct {
+    background-color: green;
+  }
+  
+  .incorrect {
+    background-color: #ff6666;
+  }
+  
+  .success {
+    font-size: 20px;
+    background-color: yellowgreen;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin-left: 10px;
+  }
+  
+  .validate {
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(55, 55, 53, 255);
+    color: white;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
