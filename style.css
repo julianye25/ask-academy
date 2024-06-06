@@ -323,7 +323,7 @@ footer a {
   display: none;
 }
 
-.container {
+.container-login {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -370,8 +370,6 @@ footer a {
 .right-login .register {
   color: #45a049;
 }
-
-
 
 
 
@@ -446,6 +444,16 @@ footer a {
   .container-footer {
     flex-direction: row;
   }
+
+  .container-login {
+    flex-direction: column;
+  }
+
+  .right-login input {
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
 
 @media only screen and (min-width: 1024px) {
@@ -460,4 +468,6 @@ footer a {
   .tarjeta-imagen {
     display: block;
   }
+
+
 }
