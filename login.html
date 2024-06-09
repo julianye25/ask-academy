@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="./styles/login.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/login.css" />
+  </head>
+  <body>
     <div class="container-login">
-        <div class="left-login">
+      <div class="right-login">
+        <h1><a class="inicio" href="./index.html">A</a></h1>
+        <h2>Iniciar sesion</h2>
+        <br />
+        <form action="">
+          <input
+            type="email"
+            placeholder="Ingrese el correo"
+            name="email"
+            id="email"
+          />
 
-        </div>
-        <div class="right-login">
-                <h2>Iniciar sesion</h2>
-                <br>
-            <form action="">
-                <input type="email" placeholder="Ingrese el correo" name="email" id="email">
+          <input
+            type="password"
+            placeholder="Ingrese la contraseña"
+            name="password"
+            id="password"
+          />
 
-                <input type="password" placeholder="Ingrese la contraseña" name="password" id="password">
+          <button type="submit">Iniciar sesion</button>
+        </form>
 
-                
-                <button type="submit">Iniciar sesion</button>
-            </form>
-
-            <p>¿No tienes una cuenta?  <span class="register"><a href="./register.html">Registrare</a></span></p>
-        </div>
+        <p>
+          ¿No tienes una cuenta?
+          <span class="register"><a href="./register.html">Registrare</a></span>
+        </p>
+      </div>
     </div>
-</body>
+  </body>
 </html>

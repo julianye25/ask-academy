@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registro</title>
-    <link rel="stylesheet" href="./styles/register.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/register.css" />
+  </head>
+  <body>
     <div class="container">
+      <h1><a class="inicio" href="./index.html">A</a></h1>
+      <h2>Registro</h2>
+      <br />
+      <form action="register.php" method="post">
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Nombre"
+          required
+        /><br />
 
-        <h1>Registro</h1>
-        <br>
-        <form action="register.php" method="post"> 
-            <input type="text" id="name" name="name" placeholder="Nombre" required><br>
-    
-            <input type="text" id="lastNAme" name="lastname" placeholder="Apellido" required><br>
-    
-            <input type="email" id="email" name="email" placeholder="Correo" required><br>
-    
-            <input type="password" id="password" name="password" placeholder="Contraseña" required><br>
-    
-            <input class="register" type="submit" value="Registro">
-        </form>
-        <br>
-        <p>¿ya tienes una cuenta? <span><a href="./login.html">Inicia sesion</a></span></p>
+        <input
+          type="text"
+          id="lastNAme"
+          name="lastname"
+          placeholder="Apellido"
+          required
+        /><br />
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Correo"
+          required
+        /><br />
+
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Contraseña"
+          required
+        /><br />
+
+        <input class="register" type="submit" value="Registro" />
+      </form>
+      <br />
+      <p>
+        ¿ya tienes una cuenta?
+        <span><a class="login" href="./login.html">Inicia sesion</a></span>
+      </p>
     </div>
-</body>
+  </body>
 </html>

@@ -1,43 +1,54 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-image: url(../img/background.jpeg);
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-  }
+body {
+  background-image: url(../img/background.jpeg);
+}
 
-  h2 {
-    text-align: center;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
 
-  form {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    align-items: center;
-  }
+h2 {
+  text-align: center;
+}
 
-  form input {
-    padding: 5px;
-    text-align: center;
-    border-radius: 10px;
-  }
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
 
-  form .register {
-    padding: 10px  40px;
-    background-color: #45a049;
-    border: none;
-    color: white;
-  }
+form input {
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+
+form .register {
+  padding: 10px 40px;
+  background-color: #45a049;
+  border: none;
+  color: white;
+}
+
+.login {
+  text-decoration: none;
+  color: #45a049;
+}
+
+.inicio {
+  text-decoration: none;
+  color: white;
+}
