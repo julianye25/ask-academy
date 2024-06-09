@@ -12,16 +12,20 @@ h2 {
 }
 
 p {
-  width: 750px;
   color: white;
-  text-align: center;
   font-size: 20px;
 }
 
+.about {
+  width: 750px;
+  text-align: center;
+}
+
 .cards {
-  width: 280px;
-  background-color: #fff;
-  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -31,7 +35,7 @@ p {
 
 .card {
   width: 250px;
-  height: 250px;
+  height: 230px;
   background-color: #8a8484;
   margin-top: 15px;
   margin-right: 60px;
@@ -48,5 +52,7 @@ p {
 
 .tarjeta-descripcion {
   font-size: 1rem;
-  color: #666;
+  color: #ffffff;
+  padding: 10px;
+  text-align: justify;
 }
